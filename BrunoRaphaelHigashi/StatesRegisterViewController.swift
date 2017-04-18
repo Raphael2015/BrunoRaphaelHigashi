@@ -10,6 +10,11 @@ import UIKit
 
 class StatesRegisterViewController: UIViewController {
 
+    @IBOutlet weak var tfUstobrl: UITextField!    
+    @IBOutlet weak var tfIof: UITextField!
+    @IBOutlet weak var tvStates: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -31,5 +36,7 @@ class StatesRegisterViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func addStateData(_ sender: UIButton) {
+    }
 
 }

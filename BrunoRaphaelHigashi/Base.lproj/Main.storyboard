@@ -211,6 +211,9 @@
                                 <rect key="frame" x="183" y="473" width="121" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Adicionar Estado"/>
+                                <connections>
+                                    <action selector="addStateData:" destination="X1O-Od-jxl" eventType="touchUpInside" id="n6B-13-um8"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cotação do Dólar (R$):" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cd1-HX-bNj">
                                 <rect key="frame" x="16" y="55" width="179" height="21"/>
@@ -244,6 +247,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Ajustes" image="settings" id="4Pp-7m-GUq"/>
+                    <connections>
+                        <outlet property="tfIof" destination="ld8-lE-kW6" id="7Eq-FC-OY0"/>
+                        <outlet property="tfUstobrl" destination="Xmx-IP-OhP" id="OU9-PQ-TXf"/>
+                        <outlet property="tvStates" destination="S5B-CR-B44" id="x7O-qF-HUJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fjf-bR-kdf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
