@@ -84,7 +84,7 @@
         <!--Cadastrar Produto-->
         <scene sceneID="tO5-C2-BFm">
             <objects>
-                <viewController title="Cadastrar Produto" id="Z9S-FA-02o" sceneMemberID="viewController">
+                <viewController title="Cadastrar Produto" id="Z9S-FA-02o" customClass="ProductResgisterViewController" customModule="BrunoRaphaelHigashi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L9J-ve-eJV"/>
                         <viewControllerLayoutGuide type="bottom" id="YcO-WR-ZAP"/>
@@ -114,6 +114,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MF4-Uw-9K8">
                                 <rect key="frame" x="282" y="280" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="addState:" destination="Z9S-FA-02o" eventType="touchUpInside" id="udg-dW-Bzz"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Valor (U$)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yNR-GK-xqg">
                                 <rect key="frame" x="16" y="314" width="133" height="30"/>
@@ -140,11 +143,19 @@
                                 <state key="normal" title="CADASTRAR">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="addProduct:" destination="Z9S-FA-02o" eventType="touchUpInside" id="Zyo-Sk-HwK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="ivProdPicture" destination="V8i-7g-pvT" id="1fE-VV-wdf"/>
+                        <outlet property="swProdCard" destination="Qkf-L4-SLj" id="gWQ-ed-Tms"/>
+                        <outlet property="tfProdName" destination="ZL5-Vf-IkC" id="Sls-6G-1BB"/>
+                        <outlet property="tfProdPrice" destination="yNR-GK-xqg" id="DmZ-Ys-B7p"/>
+                        <outlet property="tfStateProd" destination="RKc-4i-kVD" id="lEF-Vp-9qE"/>
                         <segue destination="X1O-Od-jxl" kind="show" id="Mc5-cH-dbV"/>
                     </connections>
                 </viewController>
@@ -174,7 +185,7 @@
         <!--Ajustes -->
         <scene sceneID="24x-cB-DWL">
             <objects>
-                <viewController id="X1O-Od-jxl" sceneMemberID="viewController">
+                <viewController id="X1O-Od-jxl" customClass="StatesRegisterViewController" customModule="BrunoRaphaelHigashi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kWi-hY-Tqb"/>
                         <viewControllerLayoutGuide type="bottom" id="r69-Wx-wYB"/>

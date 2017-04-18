@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C06E7B21EA6A71700807073 /* ProductResgisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C06E7B11EA6A71700807073 /* ProductResgisterViewController.swift */; };
+		8C06E7B41EA6A73400807073 /* StatesRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C06E7B31EA6A73400807073 /* StatesRegisterViewController.swift */; };
 		8C61F3DA1EA47DC10096D582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F3D91EA47DC10096D582 /* AppDelegate.swift */; };
 		8C61F3DC1EA47DC10096D582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F3DB1EA47DC10096D582 /* ViewController.swift */; };
 		8C61F3DF1EA47DC10096D582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C61F3DD1EA47DC10096D582 /* Main.storyboard */; };
-		8C61F3E21EA47DC10096D582 /* BrunoRaphaelHigashi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F3E01EA47DC10096D582 /* BrunoRaphaelHigashi.xcdatamodeld */; };
+		8C61F3E21EA47DC10096D582 /* Products.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F3E01EA47DC10096D582 /* Products.xcdatamodeld */; };
 		8C61F3E41EA47DC10096D582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C61F3E31EA47DC10096D582 /* Assets.xcassets */; };
 		8C61F3E71EA47DC10096D582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C61F3E51EA47DC10096D582 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C06E7B11EA6A71700807073 /* ProductResgisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductResgisterViewController.swift; sourceTree = "<group>"; };
+		8C06E7B31EA6A73400807073 /* StatesRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatesRegisterViewController.swift; sourceTree = "<group>"; };
 		8C61F3D61EA47DC10096D582 /* BrunoRaphaelHigashi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrunoRaphaelHigashi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C61F3D91EA47DC10096D582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C61F3DB1EA47DC10096D582 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C61F3DE1EA47DC10096D582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8C61F3E11EA47DC10096D582 /* BrunoRaphaelHigashi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrunoRaphaelHigashi.xcdatamodel; sourceTree = "<group>"; };
+		8C61F3E11EA47DC10096D582 /* Products.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Products.xcdatamodel; sourceTree = "<group>"; };
 		8C61F3E31EA47DC10096D582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C61F3E61EA47DC10096D582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C61F3E81EA47DC10096D582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,7 +66,9 @@
 				8C61F3E31EA47DC10096D582 /* Assets.xcassets */,
 				8C61F3E51EA47DC10096D582 /* LaunchScreen.storyboard */,
 				8C61F3E81EA47DC10096D582 /* Info.plist */,
-				8C61F3E01EA47DC10096D582 /* BrunoRaphaelHigashi.xcdatamodeld */,
+				8C61F3E01EA47DC10096D582 /* Products.xcdatamodeld */,
+				8C06E7B11EA6A71700807073 /* ProductResgisterViewController.swift */,
+				8C06E7B31EA6A73400807073 /* StatesRegisterViewController.swift */,
 			);
 			path = BrunoRaphaelHigashi;
 			sourceTree = "<group>";
@@ -140,8 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C61F3DC1EA47DC10096D582 /* ViewController.swift in Sources */,
-				8C61F3E21EA47DC10096D582 /* BrunoRaphaelHigashi.xcdatamodeld in Sources */,
+				8C06E7B41EA6A73400807073 /* StatesRegisterViewController.swift in Sources */,
+				8C61F3E21EA47DC10096D582 /* Products.xcdatamodeld in Sources */,
 				8C61F3DA1EA47DC10096D582 /* AppDelegate.swift in Sources */,
+				8C06E7B21EA6A71700807073 /* ProductResgisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,17 +313,18 @@
 				8C61F3ED1EA47DC10096D582 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8C61F3E01EA47DC10096D582 /* BrunoRaphaelHigashi.xcdatamodeld */ = {
+		8C61F3E01EA47DC10096D582 /* Products.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8C61F3E11EA47DC10096D582 /* BrunoRaphaelHigashi.xcdatamodel */,
+				8C61F3E11EA47DC10096D582 /* Products.xcdatamodel */,
 			);
-			currentVersion = 8C61F3E11EA47DC10096D582 /* BrunoRaphaelHigashi.xcdatamodel */;
-			path = BrunoRaphaelHigashi.xcdatamodeld;
+			currentVersion = 8C61F3E11EA47DC10096D582 /* Products.xcdatamodel */;
+			path = Products.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
